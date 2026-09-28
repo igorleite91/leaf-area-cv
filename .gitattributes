@@ -1,0 +1,10 @@
+# Os notebooks são material didático; o código de produção está em scripts/.
+# Sem isto, o GitHub classifica o repositório como "Jupyter Notebook" por causa
+# das imagens embutidas nas saídas, e ele deixa de aparecer em buscas por Python.
+*.ipynb linguist-documentation
+
+# Notebooks e imagens não devem sujar o diff nem a estatística de linhas
+*.ipynb -diff
+*.jpg   binary
+*.png   binary
+*.ico   binary
