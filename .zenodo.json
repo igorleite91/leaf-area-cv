@@ -1,0 +1,37 @@
+{
+  "title": "leaf-area-cv: medição automática de área foliar por visão computacional",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Leite, Igor Vieira"
+    }
+  ],
+  "description": "<p>Rotina em Python para medi&ccedil;&atilde;o autom&aacute;tica de <strong>&aacute;rea foliar individual</strong> (cm&sup2;), <strong>comprimento</strong> e <strong>largura</strong> a partir de folhas digitalizadas em scanner de mesa.</p><p>O processamento combina invers&atilde;o de m&aacute;scara sobre fundo branco, limiariza&ccedil;&atilde;o por limiar global, abertura morfol&oacute;gica com elemento estruturante el&iacute;ptico e an&aacute;lise de regi&otilde;es conexas (OpenCV + scikit-image). A convers&atilde;o de pixels para cent&iacute;metros &eacute; calibrada por uma r&eacute;gua presente na pr&oacute;pria imagem, o que torna o m&eacute;todo independente da resolu&ccedil;&atilde;o do equipamento. Os resultados s&atilde;o exportados como planilhas <code>.xlsx</code>, uma por grupo amostral.</p><p>O reposit&oacute;rio acompanha um conjunto de exemplo reproduz&iacute;vel (folhas de eucalipto digitalizadas a 300 dpi, com e sem r&eacute;gua no campo de vis&atilde;o) e tr&ecirc;s notebooks did&aacute;ticos cujas sa&iacute;das versionadas foram produzidas sobre esse mesmo conjunto.</p><p>Aplica&ccedil;&otilde;es em fenotipagem vegetal, silvicultura, fitopatologia, ecofisiologia e nutri&ccedil;&atilde;o de plantas.</p><hr><p><em>Python routine for automated measurement of individual leaf area (cm&sup2;), length and width from flatbed-scanned leaves, using global thresholding, morphological opening and connected-region analysis (OpenCV + scikit-image), with ruler-based pixel-to-centimetre calibration. Exports one spreadsheet per sample group. Ships with a reproducible sample set and three tutorial notebooks.</em></p>",
+  "keywords": [
+    "leaf area",
+    "área foliar",
+    "plant phenotyping",
+    "fenotipagem vegetal",
+    "image analysis",
+    "computer vision",
+    "image segmentation",
+    "morphometrics",
+    "OpenCV",
+    "scikit-image",
+    "agronomy",
+    "forestry",
+    "eucalyptus",
+    "plant science"
+  ],
+  "language": "por",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/igorleite91/leaf-area-cv",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
