@@ -1,0 +1,11 @@
+# leaf-area-cv — dependências
+# instale com:  pip install -r requirements.txt
+
+opencv-python>=4.5         # leitura, escala de cinza, limiar e morfologia
+scikit-image>=0.19,<2.0    # label() e regionprops() — rotulagem e medidas das regiões.
+                           # Limitado a <2.0: major_axis_length / minor_axis_length
+                           # serão removidos nessa versão (ver README, "Limitações").
+pandas>=1.3                # montagem da tabela de resultados
+openpyxl>=3.0              # exportação .xlsx (usado por pandas.to_excel)
+numpy>=1.21                # dependência transitiva, declarada explicitamente
+matplotlib>=3.4            # apenas para as células de visualização dos notebooks

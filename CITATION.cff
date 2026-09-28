@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "leaf-area-cv: medição automática de área foliar por visão computacional"
+message: "Se você usar este software, por favor cite-o conforme abaixo."
+type: software
+authors:
+  - family-names: Leite
+    given-names: Igor Vieira
+    alias: igorleite91
+repository-code: "https://github.com/igorleite91/leaf-area-cv"
+url: "https://github.com/igorleite91/leaf-area-cv"
+abstract: >-
+  Rotina em Python para medição automática de área foliar individual (cm²),
+  comprimento e largura a partir de folhas digitalizadas em scanner de mesa.
+  Usa limiarização por limiar global, abertura morfológica e análise de regiões
+  conexas (OpenCV + scikit-image), com calibração px→cm por régua presente na
+  imagem. Exporta planilhas .xlsx por grupo amostral. Aplicações em fenotipagem
+  vegetal, silvicultura, fitopatologia e ecofisiologia.
+keywords:
+  - leaf area
+  - area foliar
+  - plant phenotyping
+  - fenotipagem vegetal
+  - image analysis
+  - computer vision
+  - opencv
+  - scikit-image
+  - morphometrics
+  - agronomy
+  - forestry
+  - eucalyptus
+license: MIT
+version: 1.0.0
+date-released: "2026-09-28"
